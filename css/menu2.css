@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'arial ', sans-serif;
+    text-decoration: none;
+}
+body{
+    font-size: 16px;
+}
+
+.relleno{
+    margin: 3.125em;
+}
+
+header{
+    width:100%;
+    position: static;
+    top: 0;
+    left: 0;
+    margin-right: 0px;
+    row-gap: 0;
+    color:black;
+}
+    
+   
+ 
+
+.H1{
+    text-align:12000;
+    font-size: 6rem;
+    font-family: 'Aton',sans-serif;
+    color: trasparente;
+    background-image: url(FONDOS/FONDO_Programacion.gif);
+    background-position: 12000;
+    background-size: cover;
+    background-clip: text;
+    line-height: 750em;
+}
+
+.logo img{
+    width: 1500%;
+}
+
+.search input{
+    width: 18.75em;
+    padding: 0.625em;  
+    position: relative;
+    left: 100.1875em;
+}
+
+.container-menu{
+    width: 100%;
+    height: 100%;
+    background: #3BE32D ;
+    padding: -20px;
+    word-wrap: break-word;
+
+    
+    
+}
+.container-menu2{
+    width: 100%;
+    height: 100%;
+    background: #e3f5e1 ;
+    padding: -20px;
+    word-wrap: break-word;
+}
+
+    
+
+/*CSS para los parrafos y video*/
+
+main{
+    background: #f0f0f0;
+    padding: 2.5em 1.25em;
+    margin-top: 12.125em;
+    text-align: justify;
+}
+
+article{
+    max-width: 75em;
+    margin: 1.25em auto;
+    padding: 2.5em;
+    background: #fff;
+}
+
+article p{
+    margin-top: 1.25em;
+    font-size: 1.125em;
+    font-weight: 300;
+}
+
+.pie-pagina{
+    width: 100%;
+    height: 6.25em;
+    background-image: url(../css/img/pie.png);
+
+}
+.pie-1 {
+    position: relative;
+    text-align: center;
+    top: 2.5em;
+    color: #0E4080;
+    font-size: 1.125em;
+}
+
+
+
+
+    .pie-pagina{
+    width: 100%;
+    height: 3.125em;
+    background-image: url(../css/img/pie.png);
+
+}
+.pie-1 {
+    position: relative;
+    text-align: center;
+    top: 0.625em;
+    color: #0E4080;
+    font-size: 0.75em;
+}
+
+/*para dispositivos largos computadoras de escritorio*/
+@media (max-width: 1200px){
+    body{
+        font-size: 14px;
+    }
+    video{
+        width:100%;
+        max-width:300;
+   
+}
+}
+/*para dispositivos largos computadoras de escritorio*/
+@media (max-width: 992px) {
+  
+    video{
+        width:100%;
+        }
+
+}
+/*para dispositivos_tablet*/
+@media (max-width: 768px) {
+   
+    video{
+        width:100%;
+        }
+
+}
+/*para dispositivos_celulares*/
+@media (max-width: 576px) {
+    body{
+        font-size: 12px;
+    }
+    video{
+        width:100%;
+        }
+   
+   
+    
+}
+
